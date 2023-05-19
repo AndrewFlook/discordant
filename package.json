@@ -1,0 +1,42 @@
+{
+  "name": "discordant-theme",
+  "displayName": "Discordant Theme",
+  "description": "A dark VS Code theme inspired by Discord's dark theme. ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrewFlook/discordant"
+  },
+  "bugs": {
+    "url": "https://github.com/AndrewFlook/discordant/issues"
+  },
+  "galleryBanner": {
+
+  },
+  "icon": "",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Discordant Theme",
+    "Discordant",
+    "Discord",
+    "Dark theme",
+    "Dark",
+    "Anshin",
+    "Anshin theme",
+    "vibrant syntax"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Discordant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/discordant-theme.json"
+      }
+    ]
+  }
+}
